@@ -183,3 +183,30 @@ form > label {
   margin: 20px auto 0;
   padding: 20px 25%;
 }
+.navbar{
+  list-style: none;
+  display: inline-flex;
+  color: white;
+  width: 100%;
+  background-color: rgb(0, 144, 211);
+  padding: 20px;
+  justify-content: center;
+margin: 0 0 50px;
+
+}
+.navbar li{
+  color: white;
+  padding: 20px 50px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.navbar li:hover{
+background-color: rgb(40, 56, 90);
+}
+.detailCard{
+  background-color: white;
+  max-width: 200px;
+  border: 1pas solid black;
+  padding: 30px;
+  margin: auto;
+}
